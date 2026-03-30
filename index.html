@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #f7f8fb; margin: 0;">
+        <section style="background: #fff; border-radius: 12px; box-shadow: 0 12px 30px rgba(0,0,0,0.08); width: min(420px, 90%); padding: 32px 28px;">
+            <h1 style="margin-top: 0; color: #2c3e50; font-size: 1.6rem; text-align: center;">Register</h1>
+            <p style="text-align: center; color: #606f86; margin-top: 8px; margin-bottom: 24px;">Create your account in seconds</p>
+
+            <form action="#" method="post" autocomplete="on" style="display: grid; gap: 14px;">
+                <label style="display: flex; flex-direction: column; font-size: 0.9rem; color: #3e4b63;">Full Name
+                    <input type="text" name="fullName" required placeholder="John Doe" style="margin-top: 6px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem;" />
+                </label>
+
+                <label style="display: flex; flex-direction: column; font-size: 0.9rem; color: #3e4b63;">Email address
+                    <input type="email" name="email" required placeholder="you@example.com" style="margin-top: 6px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem;" />
+                </label>
+
+                <label style="display: flex; flex-direction: column; font-size: 0.9rem; color: #3e4b63;">Password
+                    <input type="password" name="password" required placeholder="At least 8 characters" minlength="8" style="margin-top: 6px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem;" />
+                </label>
+
+                <label style="display: flex; flex-direction: column; font-size: 0.9rem; color: #3e4b63;">Confirm Password
+                    <input type="password" name="confirmPassword" required placeholder="Repeat password" minlength="8" style="margin-top: 6px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem;" />
+                </label>
+
+                <label style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: #3e4b63;">
+                    <input type="checkbox" name="terms" required />
+                    I agree to the <a href="#" style="color:#3b82f6; text-decoration:none;">Terms and Conditions</a>
+                </label>
+
+                <button type="submit" style="background: #3b82f6; color: #fff; border: none; border-radius: 8px; padding: 12px; font-size: 1rem; cursor: pointer; transition: background 0.2s ease;">Create Account</button>
+            </form>
+
+            <p style="text-align: center; font-size: 0.88rem; color: #6f7d94; margin-top: 18px;">Already have an account? <a href="#" style="color:#3b82f6; text-decoration: none; font-weight: 600;">Sign in</a></p>
+        </section>
+    </main>
+</body>
+</html>
